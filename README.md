@@ -28,6 +28,10 @@ Python-Domain-Modeling/
 └── structure/
     ├── __init__.py
     ├── main.py
+    ├── data/
+    |   ├── processed/
+    |   └── raw/
+    |       └── sales_relatory.xlsx
     ├── exceptions/  # Custom exception classes
     |   ├── __init__.py
     |   ├── InvalidAddressError.py
@@ -49,8 +53,6 @@ Python-Domain-Modeling/
     |   ├── Email.py
     |   ├── Price.py
     |   └── Product.py
-    ├── spreadsheats/
-    |   └── sales_relatory.xlsx
     └── tests/       # Unit tests
         ├── __init__.py
         ├── Client_test.py
