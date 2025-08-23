@@ -127,4 +127,4 @@ pytest
 Contributions, issues, and feature requests are welcome. Feel free to check the issues page for this repository.
 
 ---
-**Richard Gonçalves** - [https://www.linkedin.com/in/drahciry/](https://www.linkedin.com/in/drahciry/)    
+**Richard Gonçalves** - [Linkedin](https://linkedin.com/in/drahciry)  
