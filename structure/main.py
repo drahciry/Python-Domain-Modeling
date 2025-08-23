@@ -1,11 +1,11 @@
 # Import all custom exception classes
-from exceptions import *
+from .exceptions import *
 
 # Import all custom models classes
-from models import *
+from .models import *
 
 # Import all custom loaders classes
-from loaders import *
+from .loaders import *
 
 # Import all necessary libraries
 import os
@@ -16,7 +16,7 @@ import os
 script_dir = os.path.dirname(__file__)
 
 # File path where worksheet are
-file_path = os.path.join(script_dir, 'spreadsheets', 'sales_relatory.xlsx')
+file_path = os.path.join(script_dir, 'data', 'raw', 'sales_relatory.xlsx')
 
 # Main function
 def main():
@@ -25,6 +25,7 @@ def main():
         df_clients = ExcelDataFrameLoader().load_data(file_path, 'Clients')
         df_products = ExcelDataFrameLoader().load_data(file_path, 'Products')
         df_sales = ExcelDataFrameLoader().load_data(file_path, 'Sales')
+        print('All right!')
     except Exception as e:
         print(f'There was an error for open the worksheet: {e}')
 
