@@ -8,8 +8,8 @@ from .Price import Price
 # Define the __all__ variable to control what gets imported with 'from models import *'
 __all__ = [
     'Address',
+    'Product',
     'Client',
     'Email',
-    'Price',
-    'Product'
+    'Price'
 ]
